@@ -1,2 +1,4 @@
 env
 *.OLD
+.DS_Store
+__pycache__
