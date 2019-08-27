@@ -3,7 +3,9 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'sudo -H pip install -r requirements.txt'
+        sh """id
+              pip install -r requirements.txt
+           """
       }
     }
     stage('test') {
